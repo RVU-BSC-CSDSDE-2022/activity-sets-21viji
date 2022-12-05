@@ -1,8 +1,10 @@
 #include<stdio.h>
-int input();
+int input();                                          //defining
 int compare(int a, int b, int c);
 void output(int a, int b, int c, int largest);
-int main(){
+
+int main()                                            //calling
+{
   int a, b, c, largest;
   printf("Enter three no's : ");
   a = input();
@@ -11,12 +13,16 @@ int main(){
   largest = compare(a, b, c);
   output(a, b, c, largest);
 }
-int input(){
+
+int input()                                //(1)      //declaring
+{        
   int a;
   scanf("%d", &a);
   return a;
 }
-int compare(int a, int b, int c){
+
+int compare(int a, int b, int c)          //((2))
+{     
   if (a > b && a > c){
    return a;
   }
@@ -30,7 +36,9 @@ int compare(int a, int b, int c){
     printf("invalid input");
   }
 }
-void output(int a, int b, int c, int largest){
+
+void output(int a, int b, int c, int largest)     //(3)
+{      
   if (largest == a){
     printf("The largest of %d, %d and %d is %d\n", a, b, c, largest);
   }
