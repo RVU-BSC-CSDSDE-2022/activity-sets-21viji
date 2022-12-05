@@ -14,6 +14,7 @@ else
 printf("%d is Greater", *z); 
 } 
 } 
+
 int main() 
 { 
 int a, b, c; 
