@@ -2,7 +2,6 @@
 int input();                                       //defining
 int add(int a, int b);
 void output(int a, int b, int sum);
-
 int main()            /*calling,no need to define,only excecution                          happens,predefined*/
 {
   int a, b, sum;
