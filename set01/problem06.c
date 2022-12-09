@@ -15,7 +15,7 @@ printf("%d is Greater", *z);
 } 
 } 
 
-int main() 
+int main() //definig all the functions.
 { 
 int a, b, c; 
 printf("Enter three numbers : "); 
