@@ -185,7 +185,17 @@ Square root of 49.0 is 7.0
 
 10. Write a C program to compare two strings, character by character.
 
-> For example, `Hello` should be equal to `Hello`, but not equal to `hello`.
+> For example, `Hello#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+	char str[] = "Look Here";
+
+	printf("Number of characters in \'%s\' is %d", str, strlen(str));
+
+	return 0;
+}` should be equal to `Hello`, but not equal to `hello`.
 
 > `Hello` will be lesser than `Hellw` (alphabetical order).
 
