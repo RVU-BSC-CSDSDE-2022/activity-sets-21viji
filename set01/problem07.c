@@ -4,7 +4,7 @@ int input();
 int sum_n_nos(int n);
 void output(int n, int sum);
 
-int input()
+int input()   //1
 {
   int n;
   printf("Enter the number\n");
@@ -12,7 +12,7 @@ int input()
   return n;
 }
 
-int sum_n_nos(int n)
+int sum_n_nos(int n)  //2
 {
     int sum=0;
     for(int i=1; i<=n; i++)
@@ -23,12 +23,12 @@ int sum_n_nos(int n)
   return sum;
 }
 
-void output(int n , int sum)
+void output(int n , int sum)   //3
 {
   printf("The sum of %d is %d\n",n, sum);
 }
 
-int main()
+int main()   //calling the function 
 {
   int n, sum=0;
   n=input();
