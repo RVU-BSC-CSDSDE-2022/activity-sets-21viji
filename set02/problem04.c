@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main ()
 {
-    int i,n,a[100],count=0;
+  int i,n,a[100],count=0;
   
     printf("enter size:");
     scanf("%d",&n);
