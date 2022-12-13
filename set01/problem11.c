@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-struct complex              
+struct complex  //struct is for             
 {
     float real;                 //member variables
     float imaginary;             //member variables
