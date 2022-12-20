@@ -10,8 +10,8 @@ int input()
   printf("enter first number:\n");
   scanf("%d",&n);
   return n;
+}
 
-  }
 
 void add(int a, int b, int *sum)
 {
