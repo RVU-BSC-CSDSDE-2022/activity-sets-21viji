@@ -15,7 +15,7 @@ int main()            /*calling,no need to define,only excecution               
 }
 
 int input()            
-{                        /*for pass by reference no need for                                 returning cause we use void and instead of                          return we use adress& and pointers.*/
+{                        /*for pass by reference no need for                        //returning cause we use void and instead of                        return we use adress& and pointers.*/
   int a;
   scanf("%d", &a);
   return a;
